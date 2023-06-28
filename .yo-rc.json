@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.14.0",
+    "libraryName": "sppac",
+    "libraryId": "24368e52-e6b5-4b0d-a5b8-e1b24ac482e0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sppac",
+    "solutionShortDescription": "sppac description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

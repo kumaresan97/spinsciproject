@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sppac-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sppac/SppacWebPart.js",
+          "manifest": "./src/webparts/sppac/SppacWebPart.manifest.json"
+        }
+      ]
+    },
+    "sppac-feedback-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sppacFeedback/SppacFeedbackWebPart.js",
+          "manifest": "./src/webparts/sppacFeedback/SppacFeedbackWebPart.manifest.json"
+        }
+      ]
+    },
+    "sppac-rating-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sppacRating/SppacRatingWebPart.js",
+          "manifest": "./src/webparts/sppacRating/SppacRatingWebPart.manifest.json"
+        }
+      ]
+    },
+    "sppac-footer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sppacFooter/SppacFooterWebPart.js",
+          "manifest": "./src/webparts/sppacFooter/SppacFooterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SppacWebPartStrings": "lib/webparts/sppac/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "SppacFeedbackWebPartStrings": "lib/webparts/sppacFeedback/loc/{locale}.js",
+    "SppacRatingWebPartStrings": "lib/webparts/sppacRating/loc/{locale}.js",
+    "SppacFooterWebPartStrings": "lib/webparts/sppacFooter/loc/{locale}.js"
+  }
+}
